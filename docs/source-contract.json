@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "sensor_manifest",
+    "trajectory_chunk"
+  ],
+  "relation_field": "session",
+  "required_fields": {
+    "sensor_manifest": [
+      "session",
+      "device",
+      "configured_from"
+    ],
+    "trajectory_chunk": [
+      "session",
+      "segment_from",
+      "segment_until"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}
