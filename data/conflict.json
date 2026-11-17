@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://local-source-006.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-006.example.test/records/sensor_manifest-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 155,
+        "sha256": "4a732b18773bece17a98abf8cf5603027f8a12f232efea2df8d0fb0cb1e50306"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-006.example.test/records/sensor_manifest-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-conflict.bin",
+        "status": 200,
+        "bytes": 160,
+        "sha256": "977376017aa69ce1f0bb65dbdd42acac8565fbb4910670ca089f6210f3c8c7da"
+      }
+    }
+  ]
+}
