@@ -6,12 +6,14 @@
     {
       "url": "https://local-source-006.example.test/records/sensor_manifest-A",
       "kind": "sensor_manifest",
-      "required": true
+      "required": true,
+      "expected_revision": "v2"
     },
     {
       "url": "https://local-source-006.example.test/records/trajectory_chunk-B",
       "kind": "trajectory_chunk",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": [
