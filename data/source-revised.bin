@@ -1,0 +1,8 @@
+{
+  "kind": "sensor_manifest",
+  "id": "sensor_manifest-A",
+  "revision": "v2",
+  "session": "capture-3",
+  "device": "camera-2",
+  "configured_from": "2026-11-16T09:00+08:00"
+}
