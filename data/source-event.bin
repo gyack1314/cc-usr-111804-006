@@ -1,0 +1,9 @@
+{
+  "kind": "device_swap",
+  "id": "device_swap-A",
+  "revision": "v1",
+  "session": "capture-3",
+  "device_before": "camera-1",
+  "device_after": "camera-2",
+  "swapped_at": "2026-11-16T09:15+08:00"
+}

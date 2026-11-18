@@ -1,7 +1,8 @@
 {
   "roles": [
     "sensor_manifest",
-    "trajectory_chunk"
+    "trajectory_chunk",
+    "device_swap"
   ],
   "relation_field": "session",
   "required_fields": {
@@ -14,6 +15,12 @@
       "session",
       "segment_from",
       "segment_until"
+    ],
+    "device_swap": [
+      "session",
+      "device_before",
+      "device_after",
+      "swapped_at"
     ]
   },
   "source_identity": [
