@@ -1,0 +1,32 @@
+{
+  "allowed_origins": [
+    "https://local-source-006.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-006.example.test/records/sensor_manifest-A",
+      "kind": "sensor_manifest",
+      "required": true
+    },
+    {
+      "url": "https://local-source-006.example.test/records/trajectory_chunk-B",
+      "kind": "trajectory_chunk",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-006.example.test/records/sensor_manifest-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 177,
+        "sha256": "e25040c2429d79da846dad4fcec65da754db86f2f2f46308d7d73d221bb44ec5"
+      }
+    }
+  ]
+}

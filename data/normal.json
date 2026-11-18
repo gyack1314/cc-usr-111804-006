@@ -29,5 +29,17 @@
         "sha256": "53714d9a072221ea0e57b961ed05db7f303348063388fff565d9624334bb30b4"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-006.example.test/records/sensor_manifest-A",
+      "kind": "sensor_manifest",
+      "required": true
+    },
+    {
+      "url": "https://local-source-006.example.test/records/trajectory_chunk-B",
+      "kind": "trajectory_chunk",
+      "required": true
+    }
   ]
 }
